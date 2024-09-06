@@ -1,0 +1,91 @@
+.Navbar{
+    display:flex;
+    background-color:#f3c8c9;
+    justify-content:space-around;
+    padding:16px;
+    box-shadow:0 1px 3px -2px black;
+}
+.nav-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+}
+.nav-logo p{
+    color:#3a4664;
+    font-size:38px;
+    font-weight:600;
+}
+.nav-logo h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ed4c6c;
+    font-size:15px;
+    font-weight:200;
+}
+
+.nav-menu{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:50px;
+    color:#ea8a8e;
+    font-size:20px;
+    font-weight:500;
+}
+.nav-menu li{
+    color:#e45a76;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:3px;
+    cursor:pointer;
+}
+.nav-menu hr{
+    
+    border:none;
+    width:80%;
+    height:3px;
+    border-radius:10px;
+    background:#241892;
+
+}
+.nav-login-cart{
+    display:flex;
+    align-items:center;
+    gap:45px;
+}
+.nav-login-cart button{
+    font-family: Arial, Helvetica, sans-serif;
+    width:90px;
+    height:30px;
+    outline:none;
+    border:1px solid #7a7a7a;
+    border-radius:75px;
+    color:aliceblue;
+    font-size:13px;
+    font-weight:490;
+    background:#1f145a; 
+    cursor:pointer;
+}
+
+.nav-login-cart button:active{
+    background:#cc5d7e;
+    color:#1f145a;
+    
+}
+
+.nav-cart-count{
+    width:22px;
+    height:22px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:-35px;
+    margin-left:-55px;
+    border-radius:11px;
+   font-size:14px;
+   background:#e45a76;
+   color:white; 
+
+}
